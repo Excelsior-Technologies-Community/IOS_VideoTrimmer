@@ -44,7 +44,6 @@ Video Trimmer & Thumbnail Generator is a native iOS application that provides an
 
 ### Technical Features
 
-- 🏗️ **MVVM Architecture** - Clean separation with VideoTrimmerViewModel
 - ⚡ **Async/Await** - Modern Swift concurrency for all heavy operations
 - 🎯 **Error Handling** - Comprehensive error states with user-friendly alerts
 - 📱 **iOS 16+ Support** - Leverages PhotosPicker and latest SwiftUI capabilities
@@ -61,49 +60,7 @@ Video Trimmer & Thumbnail Generator is a native iOS application that provides an
 - **Frameworks**: SwiftUI, AVFoundation, AVKit, PhotosUI, Photos
 
 ---
-
-## 🚀 Installation
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/nomanbelim/video-trimmer-ios.git
-cd video-trimmer-ios
-```
-
-### 2. Open in Xcode
-
-```bash
-open VideoTrimmer.xcodeproj
-```
-
-### 3. Configure Permissions
-
-Add the following keys to your `Info.plist`:
-
-```xml
-<key>NSPhotoLibraryUsageDescription</key>
-<string>This app needs access to your photo library to select videos for trimming.</string>
-
-<key>NSPhotoLibraryAddUsageDescription</key>
-<string>This app saves trimmed videos and thumbnails to your photo library.</string>
-```
-
-### 4. Set Deployment Target
-
-1. Select your project in Xcode navigator
-2. Go to the **VideoTrimmer** target
-3. Under **General** → **Deployment Info**
-4. Set **Minimum Deployments** to **iOS 16.0**
-
-### 5. Build and Run
-
-1. Select your target device or simulator (iOS 16.0+)
-2. Press `⌘ + R` to build and run
-3. Grant photo library permissions when prompted
-
----
-
+ 
 ## 📖 Usage
 
 ### Basic Workflow
